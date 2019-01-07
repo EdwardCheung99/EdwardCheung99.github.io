@@ -3,7 +3,7 @@
 body{
 	border: 0px;
 	margin: 0px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato',sans-serif;
 	text-align: center;
 }
 
@@ -73,6 +73,7 @@ body{
 	margin-top: 3vh;
 	margin-left: 5vh;
 	margin-right: 5vh; 
+	font-size: 1em;
 
 }
 
@@ -104,6 +105,7 @@ body{
 		width: 480px;
 		overflow: hidden;
 		padding-bottom: 1vh;
+		font-size: 1em;
 	}
 }
 
