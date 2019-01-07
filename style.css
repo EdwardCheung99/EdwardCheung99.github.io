@@ -96,9 +96,9 @@ body{
 
 @media (max-width: 700px){
 	.project-title{
-		padding-left: 1em;
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding-left: 2vh;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
 		font-weight: bold;
 		text-align: left;
 		font-size: 1.3em;
