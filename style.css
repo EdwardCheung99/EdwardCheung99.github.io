@@ -95,6 +95,16 @@ body{
 }
 
 @media (max-width: 700px){
+	.project-title{
+		padding-left: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-weight: bold;
+		text-align: left;
+		font-size: 1.3em;
+		border-bottom: 2px solid white;
+	}
+
 	.project-card{
 		display: inline-block;
 		background: #20B2AA;
