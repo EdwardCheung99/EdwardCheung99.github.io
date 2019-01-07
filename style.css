@@ -120,6 +120,11 @@ body{
 	margin: 45px 35px 45px 35px;
 }
 
+
+.brightness img:hover {
+    opacity: .5;
+}
+
 nav ul{
 	background-color: #20B2AA;
 	position: fixed;
