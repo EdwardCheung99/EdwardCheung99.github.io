@@ -1,11 +1,52 @@
 <html>
-	<title>
-		Edward Cheung	
-	</title>
+	<head>
+		<title>Edward Cheung</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
 
 	<body>
-		<h1 style="text-align: center;">
-			Edward Cheung
-		</h1>
-	</body>
+		<nav>
+			<ul id="navbar">
+				<li>
+				<a href="#about">About</a>
+				</li>
+				<li>
+				<a href="#projects">Projects</a>
+				</li>
+				<li>
+				<a href="#contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="about">
+			<h1>Edward Cheung</h1>
+			<a href="EdwardCheungResume.pdf" target="_blank"><button type="button" id="resume">My Resume</button></a>
+			<h2 class="headers">About Me</h2>
+			<p>I am an undergraduate Computer Science student at New York University. I have interests in web development, Android development, and Game Programming.</p>
+		</div>
+		<div id="projects">
+			<h3 class="headers">Projects</h3>
+			<a href="https://github.com/EdwardCheung99/ToDoList" class="project-card" target="_blank">
+				<div class="project-title">To Do List</div>
+				<ul class="project-lst">
+					<li>- Developed a web application where users could input text and create a to do list of tasks; users could also edit, delete, and mark tasks as completed</li>
+					<li>- Developed the front end using HTML5, CSS, JavaScript</li>
+					<li>- Developed the back end in Python using the Flask web framework and MySQL database</li>
+				</ul>
+			</a>
+		</div>
+		<div id="contact">
+			<h4 class="headers">Contact Info</h4>
+			<a href="https://www.linkedin.com/in/edward-cheung-5a17b1124/" target="_blank" class="contact-details">
+  				<img src="img/linkedin.png" style="width:100px;height:100px;border:0">
+			</a>
+			<a href="https://github.com/EdwardCheung99" target="_blank" class="contact-details">
+  				<img src="img/github.png" style="width:100px;height:100px;border:0">
+			</a>
+			<a href="mailto:ec3352@nyu.edu" class="contact-details">
+  				<img src="img/mail.png" style="width:100px;height:100px;border:0">
+			</a>
+		</div>
+		</body>
 </html>
