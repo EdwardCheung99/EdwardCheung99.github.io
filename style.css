@@ -65,8 +65,8 @@ body{
 	color: white;
 	text-decoration: none;
 	text-align: left;
-	height: 150px;
-	width: 700px;
+	height: auto;
+	width: 60%;
 	overflow: hidden;
 	padding-bottom: 1vh;
 	margin-bottom: 5vh;
