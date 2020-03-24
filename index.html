@@ -3,71 +3,47 @@
 		<title>Edward Cheung</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	
 
 	<body>
-		<nav>
-			<ul id="navbar">
-				<li>
-				<a href="#about">About</a>
-				</li>
-				<li>
-				<a href="#projects">Projects</a>
-				</li>
-				<li>
-				<a href="#contact">Contact</a>
-				</li>
-			</ul>
-		</nav>
-		<div id="about">
-			<h1>Edward Cheung</h1>
-			<a href="EdwardCheungResume.pdf" target="_blank"><button type="button" id="resume">My Resume</button></a>
-			<h2 class="headers">About Me</h2>
-			<p>I am an undergraduate Computer Science student at New York University. I have interests in web development, Android development, and Game Programming.</p>
+		<div id="sidebar">
+			<p class="title">Edward Cheung</p>
+			<p>Hello there! I am currently an Undergraduate Computer Science student at New York University. I have interests in Web Development, Android development, and Game Programming.</p>
+			<div id="sidebarLinks">
+				<a href="EdwardCheungResume.pdf" target="_blank">Resume</a>
+				<a href="https://www.linkedin.com/in/edward-cheung-5a17b1124/" target="_blank">LinkedIn</a>
+				<a href="https://github.com/EdwardCheung99" target="_blank">Github</a>
+				<a href="mailto:ec3352@nyu.edu">Email</a>
+			</div>
 		</div>
-		<div id="projects">
-			<h3 class="headers">Projects</h3>
-			<a href="https://github.com/EdwardCheung99/WhatChat" class="project-card" target="_blank">
-				<div class="project-title">WhatChat - An Online Chatroom application</div>
-				<ul class="project-lst">
-					<li>- Developed a web application where multiple users can send messages to each other in a real time chat</li>
-					<li>- Created features where users could create different chats, delete their own messages, and filter for specific</li>
-					messages within a chat
-					<li>- Utilized real-time engine Socket.IO</li>
-					<li>- Stored messages and chats with MongoDB</li>
-					<li>- Front End developed in HTML5, CSS, JavaScript with Handlebars.js templating</li>
-					<li>- Back End developed in JavaScript with Node.js and the Express framework</li>
-					<li></li>
-				</ul>
-			</a>
-			<a href="https://github.com/EdwardCheung99/ToDoList" class="project-card" target="_blank">
+		<div id="projectsPage">
+			<p class="title">Projects I've Worked On</p>
+			<div class="project-card"><a href="https://github.com/EdwardCheung99/WhatChat" target="_blank">
+				<div class="project-title">WhatChat - An Online Chatroom Application</div>
+				<p class="project-lst">
+					- Developed a web application where multiple users can send messages to each other in a real time chat<br>
+					- Created features where users could create different chats, delete their own messages, and filter for specific messages within a chat<br>
+					- Utilized real-time engine Socket.IO<br>
+					- Stored messages and chats with MongoDB<br>
+					- Front End developed in HTML5, CSS, JavaScript with Handlebars.js templating<br>
+					- Back End developed in JavaScript with Node.js and the Express framework<br>
+				</p>
+			</a></div>
+			<div class="project-card"><a href="https://github.com/EdwardCheung99/ToDoList" target="_blank">
 				<div class="project-title">To Do List</div>
-				<ul class="project-lst">
-					<li>- Developed a web application where users could input text and create a to do list of tasks; users could also edit, delete, and mark tasks as completed</li>
-					<li>- Developed the front end using HTML5, CSS, JavaScript</li>
-					<li>- Developed the back end in Python using the Flask web framework and MySQL database</li>
-				</ul>
-			</a>
-			<a href="https://github.com/EdwardCheung99/TwitterBot" class="project-card" target="_blank">
+				<p class="project-lst">
+					- Developed a web application where users could input text and create a to do list of tasks; users could also edit, delete, and mark tasks as completed<br>
+					- Developed the front end using HTML5, CSS, JavaScript<br>
+					- Developed the back end in Python using the Flask web framework and MySQL database<br>
+				</p>
+			</a></div>
+			<div class="project-card"><a href="https://github.com/EdwardCheung99/TwitterBot" target="_blank">
 				<div class="project-title">Twitter Bot</div>
-				<ul class="project-lst">
-					<li>- Developed a script that periodically posts Twitter tweets using the Twitter API</li>
-					<li>- Iterates a list of nouns and modifies each noun to create a humorous tweet</li>
-					<li>- Developed in Python with the Tweepy library</li>
-				</ul>
-			</a>
-		</div>
-		<div id="contact">
-			<h4 class="headers">Contact Info</h4>
-			<a href="https://www.linkedin.com/in/edward-cheung-5a17b1124/" target="_blank" class="contact-details">
-  				<div class="brightness"><img src="img/linkedin.png" style="width:100px;height:100px;border:0"></div>
-			</a>
-			<a href="https://github.com/EdwardCheung99" target="_blank" class="contact-details">
-  				<div class="brightness"><img src="img/github.png" style="width:100px;height:100px;border:0"></div>
-			</a>
-			<a href="mailto:ec3352@nyu.edu" class="contact-details">
-  				<div class="brightness"><img src="img/mail.png" style="width:100px;height:100px;border:0"></div>
-			</a>
+				<p class="project-lst">
+					- Developed a script that periodically posts Twitter tweets using the Twitter API<br>
+					- Iterates a list of nouns and modifies each noun to create a humorous tweet<br>
+					- Developed in Python with the Tweepy library<br>
+				</p>
+			</a></div>
 		</div>
 		</body>
 </html>
