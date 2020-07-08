@@ -35,5 +35,37 @@
 			</p>
 		</div>
 
+		<div class="projectPics">
+			<div class="projectSlides">
+				<img class="mySlides" src="home.png">
+				<img class="mySlides" src="login.png">
+				<img class="mySlides" src="profile.png">
+				<img class="mySlides" src="preferences.png">
+				<img class="mySlides" src="meals.png">
+				<img class="mySlides" src="search.png">
+				<button class="slideButtonL" onclick="plusDivs(-1)">&#10094;</button>
+	 			<button class="slideButtonR" onclick="plusDivs(1)">&#10095;</button>
+ 			</div>
+		</div>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+
 	</body>
 </html>
