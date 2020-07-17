@@ -15,7 +15,6 @@ body{
 
 .navbar {
 	font-family: 'Lato',sans-serif;
-	overflow: hidden;
 	background-color: white;
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
@@ -207,3 +206,109 @@ body{
   	-ms-transform: translate(-50%, -50%);
 }
 
+.dropbtn{
+	display: none;
+}
+
+@media only screen and (max-width: 600px){
+	.navLogo{
+		margin-left: 0%;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+
+	}
+
+	.navLinks{
+	  margin-right: 2%;
+	  position: absolute;
+	  top: 50%;
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+	}
+
+	.dropbtn{
+		display: inline;
+		background-image: url("img/threelines.png");
+		background-size: 100%;
+		background-color: white;
+		width: 35px;
+		height: 35px;
+		border: none;
+		outline: none;
+	}
+
+	.dropbtnProj{
+		display: inline;
+		background-image: url("img/threelines.png");
+		background-size: 100%;
+		background-color: white;
+		width: 35px;
+		height: 35px;
+		border: none;
+		outline: none;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: white;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		min-width: 30%;
+		z-index: 1;
+	}
+
+	.navbarLinks{
+		text-align: center;
+	}
+
+	.navLinks:hover .dropdown-content {
+		display: block;
+	}
+
+	.navLinks a{
+		float: none;
+		display: block;
+		color: white;
+		padding: 14px 16px;
+	  text-decoration: none;
+	  color: black;
+	  font-weight: bolder;
+	  font-size: 5.5vw;
+	  margin-left: 0;
+	}
+
+	.headLink{
+		float: none;
+		display: block;
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 30px;
+	}
+
+	.profPic{
+		border-radius: 50%;
+		max-width: 70%;
+		height: auto;
+		margin-bottom: 15px;
+		box-shadow: 0px 0px 20px #8e918f;
+	}
+
+	.aboutMe{
+		margin-top: 120px;
+		padding-left: 2%;
+		padding-right: 2%;
+		text-align: center;
+	}
+
+	.projectPage{
+		margin-top: 120px;
+		text-align: left;
+		margin-bottom: 50px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+}
