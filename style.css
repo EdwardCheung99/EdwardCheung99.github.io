@@ -326,6 +326,7 @@ body{
 		padding: 8px;
 		display: inline-block;
 		vertical-align: top;
+		text-align: left;
 	}
 
 	.project-pic{
@@ -344,5 +345,12 @@ body{
 	.project-title{
 		font-weight: bolder;
 		font-size: 4.2vw;
+	}
+
+	.projects{
+		margin-top: 100px;
+		margin-left: 3%;
+		margin-right: 3%;
+		text-align: center;
 	}
 }
