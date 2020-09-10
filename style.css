@@ -303,12 +303,20 @@ html {
 		margin-bottom: 15px;
 		box-shadow: 0px 0px 20px #8e918f;
 	}
-
 	.aboutMe{
 		margin-top: 120px;
 		padding-left: 2%;
 		padding-right: 2%;
 		text-align: center;
+	}
+
+	.bio{
+		font-size: large;
+		text-align: left;
+	}
+
+	.newLine{
+		display: none;
 	}
 
 	.projectPage{
