@@ -111,15 +111,13 @@ html {
 	background-color: #4a4a4a;
 	border-radius: 5px;
 	margin-bottom: 5px;
-	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .project-dsc{
 	font-size: auto;
-}
-
-.project-logo{
-	margin-top: 5%;
 }
 
 .contactInfo{
@@ -377,6 +375,11 @@ html {
 		margin-left: 3%;
 		margin-right: 3%;
 		text-align: center;
+	}
+
+	.project-logo{
+		height: 60%;
+		width: auto;
 	}
 
 }
